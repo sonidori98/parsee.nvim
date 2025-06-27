@@ -16,3 +16,5 @@ COLOR.ask = {
     error_bg = '#351A1A',
     line_nr_fg = '#4D5C57',
 }
+
+return COLOR
