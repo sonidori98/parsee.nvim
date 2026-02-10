@@ -69,7 +69,7 @@ function M.setup()
     util.highlight("@info", { fg = color.number_earth_yellow })
 
     -- LSP Diagnostic
-    util.highlight("DiagnosticError", { fg = color.type_error_red, bg = color.error_bg, style = "underline" })
+    util.highlight("DiagnosticError", { fg = color.type_error_red, bg = color.error_bg })
     util.highlight("DiagnosticWarning", { fg = color.keyword_blonde_yellow, style = "underline" })
     -- NOTE: noice.nvimのコマンドラインに影響有り
     -- util.highlight("DiagnosticInfo", { fg = color.number_earth_yellow, style = "underline" })
